@@ -1,7 +1,7 @@
 import socket
 
 serv_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM, proto=0)
-serv_sock.bind(('', 53210))
+serv_sock.bind(('26.175.31.63', 53210))
 serv_sock.listen(10)
 
 while True:
